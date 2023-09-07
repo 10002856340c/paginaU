@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Mi Página Web</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi Página Web</title>
 </head>
+
 <body>
-  <header>
-    <h1>Polygon</h1>
+    <header>
+        <h1>POLYGON MATIC</h1>
+    </header>
+    
     <nav>
         <ul>
             <li><a href="index.html">Introducción</a></li>
@@ -29,71 +35,63 @@
            
         </ul>
     </nav>
-  </header>
-  
-  <main>
-    <section>
-      <h2>¡Bienvenidos!</h2>
-      <p>En esta página encontrarás contenido interesante sobre diversos temas.</p>
-    </section>
+    <style>
+        /* Agrega tu estilo CSS personalizado aquí */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .video {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+ 
+
+    <main>
+        <h1>Inicio de polygon Matic</h1>
+        
     
-    <section>
-      <h2>Imagenes y Videos</h2>
-      <img src="imagen.jpg" alt="Descripción de la imagen">
-      <video controls>
-        <source src="video.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-      </video>
-    </section>
-    
-    <section>
-      <h2>Sonido</h2>
-      <audio controls>
-        <source src="sonido.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-      </audio>
-    </section>
-    
-    <section>
-      <h2>Listas y Tablas</h2>
-      <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-      </ul>
+      <div class="video-grid">
+          <!-- Primer video -->
+          <div class="video">
+            <img src="C:/Users/Cristian/Downloads/Pagina/imagenes/imagene50.jfif" alt="">
+              <p>Polygon es una plataforma de blockchain de acceso general a contratos inteligentes que pretende ser compatible con Ethereum.​Su mecanismo de consenso para procesar las transacciones en la cadena es prueba de participación.​El token nativo de Polygon se llama MATIC</p>
+          </div>
       
-      <table>
-        <tr>
-          <th>Encabezado 1</th>
-          <th>Encabezado 2</th>
-        </tr>
-        <tr>
-          <td>Dato 1</td>
-          <td>Dato 2</td>
-        </tr>
-        <tr>
-          <td>Dato 3</td>
-          <td>Dato 4</td>
-        </tr>
-      </table>
-    </section>
-    
-    <section>
-      <h2>Formulario</h2>
-      <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <input type="submit" value="Enviar">
-      </form>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
-  </footer>
+          <!-- Segundo video -->
+          <div class="video">
+              <img src="C:/Users/Cristian/Downloads/Pagina/imagenes/imagen31.png" alt="">
+              <p>Escalabilidad Mejorada: La principal diferenciación de Polygon es su capacidad para aumentar significativamente la escalabilidad de Ethereum. Ofrece una variedad de soluciones de escalabilidad, incluyendo cadenas laterales (sidechains) y soluciones de capa 2, lo que permite un mayor rendimiento en términos de transacciones por segundo (TPS) y una reducción significativa en las tarifas de gas en comparación con Ethereum.</p>
+          </div>
+      
+          <!-- Tercer video -->
+          <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/IijtdpAtOt0" frameborder="0" allowfullscreen></iframe>
+              <p>Compatibilidad con Ethereum: Polygon es completamente compatible con Ethereum. Los activos y contratos inteligentes de Ethereum pueden transferirse y utilizarse en Polygon sin problemas, lo que facilita la interoperabilidad entre las dos redes.</p>
+          </div>
+      </div>
+      
+      <div class="video">
+        <img src="C:/Users/Cristian/Downloads/Pagina/imagenes/imagen14.jfif" alt="">
+        <p>Escalabilidad Mejorada: La principal diferenciación de Polygon es su capacidad para aumentar significativamente la escalabilidad de Ethereum. Ofrece una variedad de soluciones de escalabilidad, incluyendo cadenas laterales (sidechains) y soluciones de capa 2, lo que permite un mayor rendimiento en términos de transacciones por segundo (TPS) y una reducción significativa en las tarifas de gas en comparación con Ethereum.</p>
+    </div>
+            <!-- Puedes seguir añadiendo más videos con la misma estructura -->
+        </div>
+    </main>
+
+    <footer>
+      <p>Cristian © 2023</p>
+    </footer>
 </body>
 </html>
